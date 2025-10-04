@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aem-gdrive-integration" mode="merge"/>
+    <filter root="/content/aem-gdrive-integration" mode="merge"/>
+    <filter root="/content/dam/aem-gdrive-integration" mode="merge">
+        <exclude pattern="/content/dam/aem-gdrive-integration(/.*)?"/>
+        <include pattern="/content/dam/aem-gdrive-integration/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aem-gdrive-integration/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aem-gdrive-integration" mode="merge"/>
+</workspaceFilter>

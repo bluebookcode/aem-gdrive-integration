@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/aem-gdrive-integration",
+        "create path (nt:unstructured) /content/dam/aem-gdrive-integration/jcr:content",
+        "set properties on /content/dam/aem-gdrive-integration/jcr:content\n  set cq:conf{String} to /conf/aem-gdrive-integration\n  set jcr:title{String} to \"AEM Gdrive Integration\"\nend"
+    ]
+}
